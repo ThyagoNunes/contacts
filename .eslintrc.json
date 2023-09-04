@@ -15,19 +15,9 @@
   },
   "plugins": ["react", "react-hooks"],
   "rules": {
-    "comma-dangle": "off",
-    "quotes": 0,
-    "linebreak-style": 0,
-    "no-useless-concat": 0,
-    "no-console": 0,
-    "object-curly-spacing": 0,
-    "no-promise-executor-return": 0,
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
     "react/jsx-no-bind": "off",
     "react/react-in-jsx-scope": "off",
-    "import/prefer-default-export": "off",
-    "react/jsx-no-constructed-context-values": "off",
-    "react-hooks/rules-of-hooks": "error",
-    "react-hooks/exhaustive-deps": "warn"
+    "import/prefer-default-export": "off"
   }
 }
