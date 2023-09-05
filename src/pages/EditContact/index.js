@@ -1,9 +1,17 @@
 import PageHeader from '../../components/PageHeader';
+import ContactForm from '../../components/ContactForm';
 
-export default function EditContact() {
+export default function NewContact() {
   return (
-    <PageHeader
-      title="Editar Thyago Nunes"
-    />
+    <>
+      <PageHeader
+        title="Editar Thyago Nunes"
+      />
+
+      <ContactForm
+        buttonLabel="Cadastrar"
+      />
+    </>
+
   );
 }
