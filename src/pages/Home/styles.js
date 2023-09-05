@@ -1,10 +1,10 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  margin-top: 32px;
 `;
 
 export const InputSearchContainer = styled.div`
+  margin-bottom: 32px;
   width: 100%;
 
   input {
